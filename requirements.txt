@@ -1,0 +1,28 @@
+# Core data handling
+pandas>=2.2
+numpy>=1.26
+
+# Statistical significance layer (src/stats_engine.py)
+scipy>=1.11
+
+# Topic modeling (src/topic_model.py)
+scikit-learn>=1.4
+
+# Transformer-based sentiment classification (src/classify.py)
+transformers>=4.40
+torch>=2.2
+
+# Visualization
+plotly>=5.20
+
+# UI
+streamlit>=1.35
+
+# Dataset fetch script (scripts/fetch_dataset.py) - only needs requests
+requests>=2.31
+
+# Optional: executive summary via the Claude API (src/summary.py)
+anthropic>=0.30
+
+# Testing
+pytest>=8.0
