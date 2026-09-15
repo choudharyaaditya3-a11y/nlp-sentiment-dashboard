@@ -1,8 +1,8 @@
-# NLP-Driven Customer Sentiment Dashboard (v2)
+# NLP-Driven Customer Sentiment Dashboard
 
-A rebuild of a customer-sentiment dashboard that replaces lexicon-style scoring
-and manually defined theme categories with a pretrained transformer classifier,
-unsupervised topic modeling, and a real statistical significance layer.
+A customer-sentiment dashboard built around a pretrained transformer classifier,
+unsupervised topic modeling, and a real statistical significance layer — going
+beyond lexicon-style scoring and manually defined theme categories.
 
 **Read this before the numbers below**: this project was built inside a
 network-restricted sandbox. The section [What actually ran, and what
